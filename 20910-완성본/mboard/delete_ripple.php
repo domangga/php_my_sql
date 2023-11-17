@@ -15,6 +15,6 @@
 
     // 목록보기 이동
     echo "<script>
-	         location.href = 'index.php?type=view&table=$table&num=$num';
+	         location.href = 'index.php?type=view&table=$table&num=$num&page=$page';
 	     </script>";
 ?>

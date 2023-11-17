@@ -116,7 +116,7 @@
 		<?php
 			$list_url = "index.php?type=list&table=$table&page=$page";
 		?>
-	<li><button onclick="location.href='<?=$list_url?>'">목록</button></li>
+			<li><button onclick="location.href='<?=$list_url?>'">목록</button></li>
 		<?php
 			if($userid)	
 				$onclick = "location.href='index.php?type=form&table=$table'";
@@ -124,7 +124,7 @@
 			$onclick = "alert('로그인 후 이용해 주세요!')";
 		?>
         <?php
-	        if ( $userlevel==1 or $table=="_youtube" or  $table=="_qna") {
+	        if ( $userlevel==1 or $table=="_youtube" or  $table=="_qna" or $table=="_notice") {
         ?>
 	        <li><button onclick="<?=$onclick?>">글쓰기</button></li>
 	    <?php

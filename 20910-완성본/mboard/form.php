@@ -44,7 +44,7 @@
 
 	<ul class="buttons">
         <?php
-	        if ($userlevel==1 or $table=="_youtube" or  $table=="_qna" ) {
+	        if ($userlevel==1 or $table=="_youtube" or  $table=="_qna"or $table=="_notice") {
         ?>
 		    <li><button type="button" onclick="check_input()">저장하기</button></li>
 		<?php
